@@ -1,0 +1,10 @@
+tensorflow==2.1.0
+keras_tuner==1.0.1
+scipy==1.4.1
+pandas==1.0.0
+numpy==1.18.1
+torch==1.4.0
+requests==2.22.0
+urllib3==1.25.8
+beautifulsoup4==4.9.1
+scikit_learn==0.23.1
