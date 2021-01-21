@@ -1,4 +1,4 @@
-## Exploring Skips in Session-based Music Recommendation
+# Exploring Skips in Session-based Music Recommendation
 
 In order to get started, run `pip install -r requirements.txt`.
 
