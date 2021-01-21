@@ -1,0 +1,10 @@
+.ipynb_checkpoints/
+jupytersandbox/
+__pycache__
+*.pth
+*.DS_Store
+*.pyc
+.vscode/
+__pycache__/
+venv/
+profiling/
