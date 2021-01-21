@@ -1,4 +1,12 @@
-# Data Augmentation and Pre-Processing
+# Data Augmentation and Pre-processing
+
+This folder contains all relevant code to augmenting our data (both the 1K and 1B set).
+
+`combine.ipynb` contains all code required to create `.json` files for our models.
+
+`utilities` contains all helper functions for the scrapers.
+
+> **NOTE** that a `keys.json` file is expected in the utilities folder. As this file contains API keys, we have not included it. Please ensure to include a Last.fm Developer API key, a Spotify Client ID, and a Spotify Client Secret. These can be obtained for free from https://www.last.fm/api/ and https://developer.spotify.com/dashboard/, respectively.
 
 We employ two distinct datasets in order to (a) reproduce the results attained by Sachdeva et al.'s STABR architecture [0] and explore our proposed extensions; and (b) investigate the merits of complex architectures in terms of generalisable music recommendation. Please refer to our paper for a high-level description of the general pre-processing steps.
 
